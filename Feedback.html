@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Form feedback</title>
+  <link rel="stylesheet" href="feedback.css" />
+</head>
+<body>
+
+  <video class="main__video" autoplay muted loop playsinline>
+    <source src="/video/istockphoto-1550667530-640_adpp_is.mp4" type="video/mp4">
+  </video>
+<!-- Оверлей -->
+  <div class="main__overlay">
+ </div>
+
+  <div class="feedback-container">
+    <h2>We make big things happen for your business.</h2>
+    <p>Leave your contact details, and we’ll get back to you within 24 hours.</p>
+    <form class="feedback-form" action="#" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Your name" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="example@mail.com" required />
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" placeholder="Your message" required></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+  </div>
+   <!---------------------------->
+   <script src="script.js"></script>
+</body>
+</html>
+      
